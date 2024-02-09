@@ -54,7 +54,7 @@ function PaginationModel(string $url, // url (pour garder les autres variables g
 if(isset($_GET["pg"])) $page = (int) $_GET["pg"];
 else $page = 1;
 
-$viewPage = PaginationModel("PaginationModel.php", MY_PAGINATION_GET, 340,$page,MY_PAGINATION_BY_PAGE);
+$viewPage = PaginationModel("PaginationModel.php", MY_PAGINATION_GET, 250,$page,MY_PAGINATION_BY_PAGE);
 
 echo $viewPage;
 

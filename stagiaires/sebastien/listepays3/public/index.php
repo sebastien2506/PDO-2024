@@ -6,7 +6,6 @@
 // chargement des dépendances
 require_once "../config.php"; // constantes
 require_once "../model/CountriesModel.php"; // fonctions
-require_once "../model/PaginationModel.php";
 
 // tentative de connexion
 try{
