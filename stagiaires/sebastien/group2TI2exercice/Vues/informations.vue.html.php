@@ -82,7 +82,7 @@ On veut construire un formulaire de contact avec les champs suivants :
             <input type="submit" onclick="validateForm(event)" value="Envoyer les données">
         </div>
     </form>
-    <h1>Les Commentaire</h1>
+    <h1>Les Commentaires</h1>
     <section id="informations">
         <?php 
             foreach(array_reverse($informations) as $information):
